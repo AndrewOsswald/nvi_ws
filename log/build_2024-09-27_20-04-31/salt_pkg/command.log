@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nvi_ws/nvi_ws/src/salt_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg
+Invoked command in '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/nvi_ws/nvi_ws/src/salt_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg
+Invoking command in '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg -- -j4 -l4
+Invoked command in '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg -- -j4 -l4
+Invoking command in '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg
+Invoked command in '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg

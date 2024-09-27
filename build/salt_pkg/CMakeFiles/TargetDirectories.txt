@@ -1,0 +1,9 @@
+/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg/CMakeFiles/install/strip.dir
+/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg/CMakeFiles/install/local.dir
+/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg/CMakeFiles/install.dir
+/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg/CMakeFiles/list_install_components.dir
+/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg/CMakeFiles/edit_cache.dir
+/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg/CMakeFiles/test.dir
+/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg/CMakeFiles/salt_pkg_uninstall.dir
+/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg/CMakeFiles/uninstall.dir

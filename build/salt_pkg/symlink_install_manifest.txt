@@ -1,0 +1,15 @@
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/ament_index/resource_index/package_run_dependencies/salt_pkg
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/ament_index/resource_index/parent_prefix_path/salt_pkg
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/environment/ament_prefix_path.sh
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/environment/ament_prefix_path.dsv
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/environment/path.sh
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/environment/path.dsv
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.bash
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.sh
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.zsh
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.dsv
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/package.dsv
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/ament_index/resource_index/packages/salt_pkg
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/cmake/salt_pkgConfig.cmake
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/cmake/salt_pkgConfig-version.cmake
+/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/package.xml

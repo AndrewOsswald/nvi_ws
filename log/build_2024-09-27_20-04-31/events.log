@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.003562] (salt_pkg) JobQueued: {'identifier': 'salt_pkg', 'dependencies': OrderedDict()}
+[0.004411] (salt_pkg) JobStarted: {'identifier': 'salt_pkg'}
+[0.066461] (salt_pkg) JobProgress: {'identifier': 'salt_pkg', 'progress': 'cmake'}
+[0.067985] (salt_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/nvi_ws/nvi_ws/src/salt_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg'], 'cwd': '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1241'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/nvi_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1141'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:31316'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1295,unix/ubuntu:/tmp/.ICE-unix/1295'), ('INVOCATION_ID', '34c589a618a84ba296675ae67d2794f7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/939f9fb0_3cf1_498a_9530_3cc5b44c0f36'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dev_ws/install/motor_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dev_ws/install/motor_control:/opt/ros/foxy')]), 'shell': False}
+[0.097899] (-) TimerEvent: {}
+[0.198915] (-) TimerEvent: {}
+[0.299844] (-) TimerEvent: {}
+[0.400792] (-) TimerEvent: {}
+[0.501747] (-) TimerEvent: {}
+[0.602654] (-) TimerEvent: {}
+[0.703655] (-) TimerEvent: {}
+[0.804688] (-) TimerEvent: {}
+[0.905692] (-) TimerEvent: {}
+[1.006942] (-) TimerEvent: {}
+[1.036388] (salt_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.107124] (-) TimerEvent: {}
+[1.208064] (-) TimerEvent: {}
+[1.308951] (-) TimerEvent: {}
+[1.409870] (-) TimerEvent: {}
+[1.510932] (-) TimerEvent: {}
+[1.611906] (-) TimerEvent: {}
+[1.713115] (-) TimerEvent: {}
+[1.814423] (-) TimerEvent: {}
+[1.816440] (salt_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.855474] (salt_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.914671] (-) TimerEvent: {}
+[2.015672] (-) TimerEvent: {}
+[2.116722] (-) TimerEvent: {}
+[2.217642] (-) TimerEvent: {}
+[2.225163] (salt_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.233712] (salt_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.317934] (-) TimerEvent: {}
+[2.419130] (-) TimerEvent: {}
+[2.520232] (-) TimerEvent: {}
+[2.621895] (-) TimerEvent: {}
+[2.630402] (salt_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.688161] (salt_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.690953] (salt_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.706453] (salt_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.722161] (-) TimerEvent: {}
+[2.827019] (-) TimerEvent: {}
+[2.928137] (-) TimerEvent: {}
+[3.029713] (-) TimerEvent: {}
+[3.130676] (-) TimerEvent: {}
+[3.169904] (salt_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.178297] (salt_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.231000] (-) TimerEvent: {}
+[3.331827] (-) TimerEvent: {}
+[3.432696] (-) TimerEvent: {}
+[3.533754] (-) TimerEvent: {}
+[3.579675] (salt_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.629686] (salt_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.631775] (salt_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.633874] (-) TimerEvent: {}
+[3.657670] (salt_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.734063] (-) TimerEvent: {}
+[3.814754] (salt_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.815602] (salt_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.834299] (-) TimerEvent: {}
+[3.935279] (-) TimerEvent: {}
+[4.036182] (-) TimerEvent: {}
+[4.137104] (-) TimerEvent: {}
+[4.237904] (-) TimerEvent: {}
+[4.338632] (-) TimerEvent: {}
+[4.439420] (-) TimerEvent: {}
+[4.540209] (-) TimerEvent: {}
+[4.640961] (-) TimerEvent: {}
+[4.741879] (-) TimerEvent: {}
+[4.784165] (salt_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.842044] (-) TimerEvent: {}
+[4.942871] (-) TimerEvent: {}
+[5.043806] (-) TimerEvent: {}
+[5.067887] (salt_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.143980] (-) TimerEvent: {}
+[5.244883] (-) TimerEvent: {}
+[5.345736] (-) TimerEvent: {}
+[5.446569] (-) TimerEvent: {}
+[5.547396] (-) TimerEvent: {}
+[5.560603] (salt_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.571243] (salt_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.574952] (salt_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.578405] (salt_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.587464] (salt_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.604994] (salt_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.615710] (salt_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[5.620125] (salt_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg\n'}
+[5.634029] (salt_pkg) CommandEnded: {'returncode': 0}
+[5.636308] (salt_pkg) JobProgress: {'identifier': 'salt_pkg', 'progress': 'build'}
+[5.639454] (salt_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1241'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/nvi_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1141'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:31316'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1295,unix/ubuntu:/tmp/.ICE-unix/1295'), ('INVOCATION_ID', '34c589a618a84ba296675ae67d2794f7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/939f9fb0_3cf1_498a_9530_3cc5b44c0f36'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dev_ws/install/motor_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dev_ws/install/motor_control:/opt/ros/foxy')]), 'shell': False}
+[5.650575] (-) TimerEvent: {}
+[5.751922] (-) TimerEvent: {}
+[5.822526] (salt_pkg) CommandEnded: {'returncode': 0}
+[5.867369] (-) TimerEvent: {}
+[5.963809] (salt_pkg) JobProgress: {'identifier': 'salt_pkg', 'progress': 'install'}
+[5.964321] (-) TimerEvent: {}
+[6.014238] (salt_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg'], 'cwd': '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1241'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/nvi_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1141'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:31316'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1295,unix/ubuntu:/tmp/.ICE-unix/1295'), ('INVOCATION_ID', '34c589a618a84ba296675ae67d2794f7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/939f9fb0_3cf1_498a_9530_3cc5b44c0f36'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dev_ws/install/motor_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dev_ws/install/motor_control:/opt/ros/foxy')]), 'shell': False}
+[6.060113] (salt_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.062120] (salt_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.065015] (-) TimerEvent: {}
+[6.067490] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/ament_index/resource_index/package_run_dependencies/salt_pkg\n'}
+[6.108853] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/ament_index/resource_index/parent_prefix_path/salt_pkg\n'}
+[6.148576] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/environment/ament_prefix_path.sh\n'}
+[6.165199] (-) TimerEvent: {}
+[6.187085] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/environment/ament_prefix_path.dsv\n'}
+[6.228310] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/environment/path.sh\n'}
+[6.265403] (-) TimerEvent: {}
+[6.266674] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/environment/path.dsv\n'}
+[6.308743] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.bash\n'}
+[6.347047] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.sh\n'}
+[6.365721] (-) TimerEvent: {}
+[6.387236] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.zsh\n'}
+[6.428590] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.dsv\n'}
+[6.465926] (-) TimerEvent: {}
+[6.468030] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/package.dsv\n'}
+[6.509891] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/ament_index/resource_index/packages/salt_pkg\n'}
+[6.550052] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/cmake/salt_pkgConfig.cmake\n'}
+[6.566252] (-) TimerEvent: {}
+[6.589424] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/cmake/salt_pkgConfig-version.cmake\n'}
+[6.630302] (salt_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/nvi_ws/nvi_ws/install/salt_pkg/share/salt_pkg/package.xml\n'}
+[6.666541] (-) TimerEvent: {}
+[6.676473] (salt_pkg) CommandEnded: {'returncode': 0}
+[6.766901] (-) TimerEvent: {}
+[6.867905] (-) TimerEvent: {}
+[6.876267] (salt_pkg) JobEnded: {'identifier': 'salt_pkg', 'rc': 0}
+[6.880200] (-) EventReactorShutdown: {}

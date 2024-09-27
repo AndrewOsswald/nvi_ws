@@ -1,0 +1,1 @@
+/home/ubuntu/nvi_ws/nvi_ws/build/salt_pkg/ament_cmake_core/salt_pkgConfig.cmake
