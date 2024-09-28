@@ -10,7 +10,7 @@ def generate_launch_description():
   use_sim_time = LaunchConfiguration('use_sim_time', default='false')
   xacro_file_name = '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/robot_model.xacro'
 
-  # print("urdf_file_name : {}".format(urdf_file_name))
+  
 
   return LaunchDescription([
         
