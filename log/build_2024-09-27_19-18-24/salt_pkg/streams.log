@@ -1,0 +1,58 @@
+[0.123s] Invoking command in '/home/seniorproject/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake /home/seniorproject/nvi_ws/src/salt_pkg -DCMAKE_INSTALL_PREFIX=/home/seniorproject/nvi_ws/install/salt_pkg
+[0.655s] -- The C compiler identification is GNU 9.4.0
+[1.043s] -- The CXX compiler identification is GNU 9.4.0
+[1.111s] -- Detecting C compiler ABI info
+[1.683s] -- Detecting C compiler ABI info - done
+[1.783s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.785s] -- Detecting C compile features
+[1.788s] -- Detecting C compile features - done
+[1.814s] -- Detecting CXX compiler ABI info
+[2.397s] -- Detecting CXX compiler ABI info - done
+[2.499s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.501s] -- Detecting CXX compile features
+[2.505s] -- Detecting CXX compile features - done
+[2.543s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.608s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[2.609s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.609s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.610s]   the cmake_policy command to set the policy and suppress this warning.
+[2.610s] 
+[2.610s] Call Stack (most recent call first):
+[2.611s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[2.611s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[2.612s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.612s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.613s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.613s]   CMakeLists.txt:19 (find_package)
+[2.614s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.614s] [0m
+[2.754s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[2.756s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.099s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.708s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.726s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.734s] -- Added test 'lint_cmake' to check CMake code style
+[4.742s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.754s] -- Added test 'xmllint' to check XML markup files
+[4.771s] -- Configuring done (4.6s)
+[4.799s] -- Generating done (0.0s)
+[4.834s] -- Build files have been written to: /home/seniorproject/nvi_ws/build/salt_pkg
+[4.856s] Invoked command in '/home/seniorproject/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake /home/seniorproject/nvi_ws/src/salt_pkg -DCMAKE_INSTALL_PREFIX=/home/seniorproject/nvi_ws/install/salt_pkg
+[4.875s] Invoking command in '/home/seniorproject/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --build /home/seniorproject/nvi_ws/build/salt_pkg -- -j6 -l6
+[4.990s] Invoked command in '/home/seniorproject/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --build /home/seniorproject/nvi_ws/build/salt_pkg -- -j6 -l6
+[5.188s] Invoking command in '/home/seniorproject/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --install /home/seniorproject/nvi_ws/build/salt_pkg
+[5.212s] -- Install configuration: ""
+[5.213s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/ament_index/resource_index/package_run_dependencies/salt_pkg
+[5.214s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/ament_index/resource_index/parent_prefix_path/salt_pkg
+[5.215s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/environment/ament_prefix_path.dsv
+[5.216s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/environment/path.dsv
+[5.217s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.bash
+[5.218s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.sh
+[5.219s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.zsh
+[5.221s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.dsv
+[5.222s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.dsv
+[5.223s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/ament_index/resource_index/packages/salt_pkg
+[5.224s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/cmake/salt_pkgConfig.cmake
+[5.225s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/cmake/salt_pkgConfig-version.cmake
+[5.226s] -- Installing: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.xml
+[5.240s] Invoked command in '/home/seniorproject/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --install /home/seniorproject/nvi_ws/build/salt_pkg

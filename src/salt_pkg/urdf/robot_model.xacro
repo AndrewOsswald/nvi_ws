@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot name="saltbot" xmlns:xacro="http://ros.org/wiki/xacro">
 
-    <xacro:include filename="additional_files/materials.xacro" />
+    <xacro:include filename="/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/materials.xacro" />
     
     <link name="base_footprint"/>
 
