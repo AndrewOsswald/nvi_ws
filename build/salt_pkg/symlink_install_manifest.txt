@@ -1,5 +1,7 @@
-/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/talker.launch.py
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/vision.launch.py
+/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/config/config.rviz
+/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/gazebo_control
+/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/gazebo_ref.xacro
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/materials.xacro
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/robot_model.xacro
 /home/seniorproject/nvi_ws/install/salt_pkg/share/ament_index/resource_index/package_run_dependencies/salt_pkg

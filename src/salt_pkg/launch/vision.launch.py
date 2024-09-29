@@ -4,13 +4,14 @@ from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration, Command
 from launch_ros.actions import Node
+import launch
 
 def generate_launch_description():
 
   use_sim_time = LaunchConfiguration('use_sim_time', default='false')
   xacro_file_name = '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/robot_model.xacro'
 
-  
+  launch.actions.ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'], output='screen'),
 
   return LaunchDescription([
         
@@ -34,5 +35,25 @@ def generate_launch_description():
             #    ('/tf', 'tf'),
             #    ('/tf_static', 'tf_static')
             #]
+        ),
+        Node(
+            package='rviz2',
+            namespace='',
+            executable='rviz2',
+            name='rviz2',
+            arguments=['-d', '/home/seniorproject/nvi_ws/src/salt_pkg/config/config.rviz']
+        ),
+        Node(
+            package='joint_state_publisher',
+            executable='joint_state_publisher',
+            name='joint_state_publisher',
+            arguments=['-d', '/home/seniorproject/nvi_ws/src/salt_pkg/config/config.rviz']
+        ),
+        Node(
+            package='gazebo_ros',
+            executable='spawn_entity.py',
+            arguments=['-entity', 'sam_bot', '-topic', 'robot_description'],
+            output='screen'
         )
+        
   ])
