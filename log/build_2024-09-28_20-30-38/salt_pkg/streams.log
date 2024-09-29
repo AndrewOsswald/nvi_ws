@@ -1,0 +1,31 @@
+[0.257s] Invoking command in '/home/seniorproject/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake /home/seniorproject/nvi_ws/src/salt_pkg -DCMAKE_INSTALL_PREFIX=/home/seniorproject/nvi_ws/install/salt_pkg
+[0.422s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.442s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.444s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.444s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.445s]   the cmake_policy command to set the policy and suppress this warning.
+[0.447s] 
+[0.447s] Call Stack (most recent call first):
+[0.448s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.448s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.449s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.449s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.450s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.450s]   CMakeLists.txt:19 (find_package)
+[0.451s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.451s] [0m
+[0.657s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.104s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.235s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.930s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.956s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.962s] -- Added test 'lint_cmake' to check CMake code style
+[2.967s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.991s] -- Added test 'xmllint' to check XML markup files
+[2.999s] -- Configuring done (2.7s)
+[3.032s] -- Generating done (0.0s)
+[3.033s] -- Build files have been written to: /home/seniorproject/nvi_ws/build/salt_pkg
+[3.053s] Invoked command in '/home/seniorproject/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake /home/seniorproject/nvi_ws/src/salt_pkg -DCMAKE_INSTALL_PREFIX=/home/seniorproject/nvi_ws/install/salt_pkg
+[3.087s] Invoking command in '/home/seniorproject/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --build /home/seniorproject/nvi_ws/build/salt_pkg -- -j6 -l6
+[3.309s] Invoked command in '/home/seniorproject/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --build /home/seniorproject/nvi_ws/build/salt_pkg -- -j6 -l6
+[3.581s] Invoking command in '/home/seniorproject/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --install /home/seniorproject/nvi_ws/build/salt_pkg
