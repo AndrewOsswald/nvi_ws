@@ -10,6 +10,7 @@
     <xacro:property name="base_height" value=".2"/>
 
     <xacro:property name="wheel_radius" value=".11"/>
+    <xacro:property name="secondary_wheel_radius" value=".108"/>
     <xacro:property name="wheel_width" value=".04"/>
 
     <link name="base_footprint"/>
@@ -105,13 +106,19 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 1.57"/>
             <geometry>
-                <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+                <cylinder radius="${secondary_wheel_radius}" length="${wheel_width}"/>
             </geometry>
             <material name="red"/>
         </visual>
 
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 1.57"/>
+            <geometry>
+                <cylinder length="0.04" radius="0.11"/>
+            </geometry>
+        </collision>
 
-        <xacro:cylinder_inertia m="0.5" r="${wheel_radius}" h="${wheel_width}"/>
+        <xacro:cylinder_inertia m="0.5" r="${secondary_wheel_radius}" h="${wheel_width}"/>
 
     </link>
 
@@ -126,13 +133,19 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 1.57"/>
             <geometry>
-                <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+                <cylinder radius="${secondary_wheel_radius}" length="${wheel_width}"/>
             </geometry>
             <material name="green"/>
         </visual>
 
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 1.57"/>
+            <geometry>
+                <cylinder length="0.04" radius="0.11"/>
+            </geometry>
+        </collision>
 
-        <xacro:cylinder_inertia m="0.5" r="${wheel_radius}" h="${wheel_width}"/>
+        <xacro:cylinder_inertia m="0.5" r="${secondary_wheel_radius}" h="${wheel_width}"/>
         
     </link>
 
@@ -147,12 +160,19 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 1.57"/>
             <geometry>
-                <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+                <cylinder radius="${secondary_wheel_radius}" length="${wheel_width}"/>
             </geometry>
             <material name="orange"/>
         </visual>
 
-        <xacro:cylinder_inertia m="0.5" r="${wheel_radius}" h="${wheel_width}"/>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 1.57"/>
+            <geometry>
+                <cylinder length="0.04" radius="0.11"/>
+            </geometry>
+        </collision>
+
+        <xacro:cylinder_inertia m="0.5" r="${secondary_wheel_radius}" h="${wheel_width}"/>
 
     </link>
 
@@ -167,12 +187,19 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 1.57"/>
             <geometry>
-                <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+                <cylinder radius="${secondary_wheel_radius}" length="${wheel_width}"/>
             </geometry>
             <material name="blue"/>
         </visual>
 
-        <xacro:cylinder_inertia m="0.5" r="${wheel_radius}" h="${wheel_width}"/>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 1.57"/>
+            <geometry>
+                <cylinder length="0.04" radius="0.11"/>
+            </geometry>
+        </collision>
+
+        <xacro:cylinder_inertia m="0.5" r="${secondary_wheel_radius}" h="${wheel_width}"/>
 
     </link>
 

@@ -36,4 +36,6 @@ ros2 launch gazebo_ros gazebo.launch.py
 # launch vision package
 ros2 launch salt_pkg vision.launch.py
 
-#
+# launch teleop joystick node
+ros2 launch teleop_twist_joy teleop-launch.py joy_config:='xbox'
+
