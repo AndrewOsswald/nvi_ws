@@ -1,0 +1,39 @@
+
+
+# publish robot_model.urdf.xacro transforms to robot state publisher
+
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$( xacro /home/seniorproject/nvi_ws/src/robot_model.xacro )"
+
+# run joint_state_publisher_gui
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+
+# run rvis
+rviz2
+
+
+
+
+
+GAZEBO
+# launch gazebo through ros
+ros2 launch gazebo_ros gazebo.launch.py
+
+# spawn robot in gazebo world
+ros2 run gazebo_ros spawn_entity.py -topic robot_descripton -entity robot
+
+
+
+
+
+New Steps so far
+
+# launch robot state publisher GUI
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+
+# launch gazebo through ros
+ros2 launch gazebo_ros gazebo.launch.py
+
+# launch vision package
+ros2 launch salt_pkg vision.launch.py
+
+#
