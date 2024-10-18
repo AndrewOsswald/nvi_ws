@@ -1,0 +1,1 @@
+/home/seniorproject/nvi_ws/src/salt_pkg/launch/vision_sim.launch.py

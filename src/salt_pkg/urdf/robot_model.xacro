@@ -13,6 +13,13 @@
     <xacro:property name="secondary_wheel_radius" value=".108"/>
     <xacro:property name="wheel_width" value=".04"/>
 
+    <xacro:arg name="camera_name"   default="zedm" />
+    <xacro:arg name="camera_model"  default="zedm" />
+    <xacro:arg name="use_zed_localization" default="true" />
+
+    <xacro:include filename="$(find zed_wrapper)/urdf/zed_macro.urdf.xacro" />
+    <xacro:zed_camera name="$(arg camera_name)" model="$(arg camera_model)" />
+
     <link name="base_footprint"/>
 
     <joint name="base_joint" type="fixed">
@@ -226,7 +233,7 @@
 
     </link>
 
-    <link name="camera_link">
+    <link name="$(arg camera_name)_camera_link">
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
@@ -248,21 +255,14 @@
         </inertial>
     </link>
 
-    <joint name="camera_joint" type="fixed">
-        <parent link="base_link"/>
-        <child link="camera_link"/>
-        <origin xyz=".3 0 .325"/>
+    <!-- ZED Localization -> The reference link is '$(arg camera_name)_camera_link' and 'base_link' is a child -->
+    <joint name="$(arg camera_name)_joint" type="fixed">
+      <parent link="$(arg camera_name)_camera_link"/>
+      <child link="base_link"/>
+      <origin
+        xyz="-0.12 0.0 -0.25"
+        rpy="0 0 0"
+      />
     </joint>
-
-    <link name="camera_depth_frame"/>
-
-    <joint name="camera_depth_joint" type="fixed">
-        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
-        <parent link="camera_link"/>
-        <child link="camera_depth_frame"/>
-    </joint>
-
-    
-    
 
 </robot>

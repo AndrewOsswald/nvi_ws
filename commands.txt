@@ -25,7 +25,7 @@ ros2 run gazebo_ros spawn_entity.py -topic robot_descripton -entity robot
 
 
 
-New Steps so far
+New Steps so far for simulation
 
 # launch robot state publisher GUI
 ros2 run joint_state_publisher_gui joint_state_publisher_gui
@@ -34,8 +34,17 @@ ros2 run joint_state_publisher_gui joint_state_publisher_gui
 ros2 launch gazebo_ros gazebo.launch.py
 
 # launch vision package
-ros2 launch salt_pkg vision.launch.py
+ros2 launch salt_pkg vision_sim.launch.py
 
 # launch teleop joystick node
 ros2 launch teleop_twist_joy teleop-launch.py joy_config:='xbox'
+
+
+
+
+
+Steps for real running
+
+
+
 
