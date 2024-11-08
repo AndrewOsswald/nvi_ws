@@ -41,7 +41,7 @@ def generate_launch_description():
             namespace='',
             executable='rviz2',
             name='rviz2',
-            arguments=['-d', '/home/seniorproject/nvi_ws/src/salt_pkg/config/config.rviz']
+            arguments=['-d', '/home/seniorproject/nvi_ws/src/salt_pkg/config/config_sim.rviz']
         ),
         Node(
             package='joint_state_publisher',

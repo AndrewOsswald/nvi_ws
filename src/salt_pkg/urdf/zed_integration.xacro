@@ -1,29 +1,76 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <!-- This file is unused -->
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+  <xacro:include filename="$(find zed_wrapper)/urdf/include/materials.urdf.xacro" />
+  <xacro:property name="M_PI"     value="3.1415926535897931" />
+  
+    
+    <xacro:property name="baseline" value="0.06" />
+    <xacro:property name="height" value="0.0265" />
+    <xacro:property name="bottom_slope" value="0.0" /> 
+    <xacro:property name="screw_offset_x" value="0.0" />
+    <xacro:property name="screw_offset_z" value="0.0" />
+    <xacro:property name="optical_offset_x" value="0.0" />
+    
 
-    <xacro:if value="$(arg use_zed_localization)">
-    <!-- ZED Localization -> The reference link is '$(arg camera_name)_camera_link' and 'base_link' is a child -->
-    <joint name="$(arg camera_name)_joint" type="fixed">
-      <parent link="$(arg camera_name)_camera_link"/>
-      <child link="base_link"/>
-      <origin
-        xyz="-0.12 0.0 -0.25"
-        rpy="0 0 0"
-      />
+    <!-- Camera mounting point (the threaded screw hole in the bottom) -->
+    <link name="zedm_camera_link"> </link>
+    
+    <!-- Camera Center -->
+    <link name="zedm_camera_center">
+        <visual>
+          <origin xyz="${screw_offset_x} 0 ${screw_offset_z}" rpy="0 0 0"/>
+          <geometry>
+            <mesh filename="package://zed_interfaces/meshes/zedm.stl" />
+          </geometry>
+          <material name="zedm_mat" />
+        </visual>      
+        <collision>
+          <origin xyz="${screw_offset_x} 0 ${screw_offset_z}" rpy="0 0 0"/>
+          <geometry>
+            <mesh filename="package://zed_interfaces/meshes/zedm.stl" />
+          </geometry>
+        </collision>
+    </link>
+
+    <joint name="zedm_camera_center_joint" type="fixed">
+      <parent link="zedm_camera_link"/>
+      <child link="zedm_camera_center"/>
+      <origin xyz="0 0 ${height/2}" rpy="0 ${bottom_slope} 0" />
     </joint>
-  </xacro:if>
-  <xacro:unless value="$(arg use_zed_localization)">
-    <!-- NO ZED Localization -> '$(arg camera_name)_camera_link' is a child of 'base_link' -->
-    <joint name="$(arg camera_name)_joint" type="fixed">
-      <parent link="base_link"/>
-      <child link="$(arg camera_name)_camera_link"/>
-      <origin
-        xyz="0.12 0.0 0.25"
-        rpy="0 0 0"
-      />
-    </joint>
-  </xacro:unless>
 
+    <!-- Left Camera -->
+    <link name="zedm_left_camera_frame"> </link>
+
+    <joint name="zedm_left_camera_joint" type="fixed">
+      <parent link="zedm_camera_center"/>
+      <child link="zedm_left_camera_frame"/>
+      <origin xyz="${optical_offset_x} ${baseline/2} 0" rpy="0 0 0" />
+    </joint>
+
+    <link name="zedm_left_camera_optical_frame"> </link>
+
+    <joint name="zedm_left_camera_optical_joint" type="fixed">
+      <origin xyz="0 0 0" rpy="-${M_PI/2} 0.0 -${M_PI/2}"/>
+      <parent link="zedm_left_camera_frame"/>
+      <child link="zedm_left_camera_optical_frame"/>
+    </joint>
+
+    <!-- Right Camera -->
+    <link name="zedm_right_camera_frame"> </link>
+
+    <joint name="zedm_right_camera_joint" type="fixed">
+      <parent link="zedm_camera_center"/>
+      <child link="zedm_right_camera_frame"/>
+      <origin xyz="${optical_offset_x} -${baseline/2} 0" rpy="0 0 0" />
+    </joint>
+
+    <link name="zedm_right_camera_optical_frame"> </link>
+
+    <joint name="zedm_right_camera_optical_joint" type="fixed">
+      <origin xyz="0 0 0" rpy="-${M_PI/2} 0.0 -${M_PI/2}"/>
+      <parent link="zedm_right_camera_frame"/>
+      <child link="zedm_right_camera_optical_frame"/>
+    </joint>
+  
 </robot>

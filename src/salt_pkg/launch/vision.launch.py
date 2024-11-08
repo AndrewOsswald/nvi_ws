@@ -13,6 +13,12 @@ def generate_launch_description():
 
   launch.actions.ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'], output='screen'),
 
+  config_rviz2 = os.path.join(
+        get_package_share_directory('zed_display_rviz2'),
+        'rviz2',
+        'zedm' + '.rviz'
+    )
+
   return LaunchDescription([
         
         DeclareLaunchArgument(
@@ -42,10 +48,11 @@ def generate_launch_description():
         ),
         Node(
             package='rviz2',
-            namespace='',
+            namespace='zedm',
             executable='rviz2',
-            name='rviz2',
-            arguments=['-d', '/home/seniorproject/nvi_ws/src/salt_pkg/config/config.rviz']
+            name='zedm_rviz2',
+            arguments=['-d', '/home/seniorproject/nvi_ws/src/salt_pkg/config/config.rviz'],
+            output='screen',
         ),
         Node(
             package='joint_state_publisher',
@@ -59,5 +66,8 @@ def generate_launch_description():
             arguments=['-entity', 'sam_bot', '-topic', 'robot_description'],
             output='screen'
         )
+
+        
+    
         
   ])
