@@ -2,7 +2,10 @@
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/vision_sim.launch.py
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/config/config.rviz
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/config/config_sim.rvis.rviz
+/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/config/mapper_params_online_async.yaml
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/config/test.rviz
+/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/maps/turtle_test.pgm
+/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/maps/turtle_test.yaml
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/gazebo_control.xacro
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/gazebo_ref.xacro
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/materials.xacro

@@ -1,0 +1,151 @@
+[3.461s] DEBUG:colcon:Command line arguments: ['/home/seniorproject/.local/bin/colcon', 'build', '--symlink-install']
+[3.462s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffab9bd310>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffab9bd310>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffab9bd7f0>)
+[4.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.562s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seniorproject/nvi_ws'
+[4.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.787s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.787s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.788s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.790s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.791s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.796s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extensions ['ignore', 'ignore_ament_install']
+[4.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extension 'ignore'
+[4.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extension 'ignore_ament_install'
+[4.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extensions ['colcon_pkg']
+[4.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extension 'colcon_pkg'
+[4.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extensions ['colcon_meta']
+[4.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extension 'colcon_meta'
+[4.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extensions ['ros']
+[4.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extension 'ros'
+[4.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extensions ['cmake', 'python']
+[4.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extension 'cmake'
+[4.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extension 'python'
+[4.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extensions ['python_setup_py']
+[4.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/additional_files) by extension 'python_setup_py'
+[4.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[4.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[4.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[4.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/salt_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/salt_pkg) by extension 'ignore'
+[4.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/salt_pkg) by extension 'ignore_ament_install'
+[4.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/salt_pkg) by extensions ['colcon_pkg']
+[4.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/salt_pkg) by extension 'colcon_pkg'
+[4.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/salt_pkg) by extensions ['colcon_meta']
+[4.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/salt_pkg) by extension 'colcon_meta'
+[4.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/salt_pkg) by extensions ['ros']
+[4.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/salt_pkg) by extension 'ros'
+[4.958s] DEBUG:colcon.colcon_core.package_identification:Package 'src/salt_pkg' with type 'ros.ament_cmake' and name 'salt_pkg'
+[4.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'salt_pkg' build argument 'cmake_args' from command line to 'None'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'salt_pkg' build argument 'cmake_target' from command line to 'None'
+[5.332s] Level 5:colcon.colcon_core.verb:set package 'salt_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.333s] Level 5:colcon.colcon_core.verb:set package 'salt_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[5.333s] Level 5:colcon.colcon_core.verb:set package 'salt_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[5.333s] Level 5:colcon.colcon_core.verb:set package 'salt_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[5.333s] Level 5:colcon.colcon_core.verb:set package 'salt_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[5.333s] Level 5:colcon.colcon_core.verb:set package 'salt_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[5.334s] Level 5:colcon.colcon_core.verb:set package 'salt_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.334s] DEBUG:colcon.colcon_core.verb:Building package 'salt_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seniorproject/nvi_ws/build/salt_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seniorproject/nvi_ws/install/salt_pkg', 'merge_install': False, 'path': '/home/seniorproject/nvi_ws/src/salt_pkg', 'symlink_install': True, 'test_result_base': None}
+[5.334s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.340s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/seniorproject/nvi_ws/src/salt_pkg' with build type 'ament_cmake'
+[5.343s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/seniorproject/nvi_ws/src/salt_pkg'
+[5.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seniorproject/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --build /home/seniorproject/nvi_ws/build/salt_pkg -- -j6 -l6
+[6.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seniorproject/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --build /home/seniorproject/nvi_ws/build/salt_pkg -- -j6 -l6
+[6.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seniorproject/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --install /home/seniorproject/nvi_ws/build/salt_pkg
+[6.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(salt_pkg)
+[6.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seniorproject/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --install /home/seniorproject/nvi_ws/build/salt_pkg
+[7.004s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg' for CMake module files
+[7.009s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg' for CMake config files
+[7.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('salt_pkg', 'cmake_prefix_path')
+[7.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/hook/cmake_prefix_path.ps1'
+[7.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/hook/cmake_prefix_path.dsv'
+[7.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/hook/cmake_prefix_path.sh'
+[7.171s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg/bin'
+[7.172s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg/lib/pkgconfig/salt_pkg.pc'
+[7.178s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg/lib/python3.8/site-packages'
+[7.179s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg/bin'
+[7.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.ps1'
+[7.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.dsv'
+[7.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.sh'
+[7.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.bash'
+[7.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.zsh'
+[7.206s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seniorproject/nvi_ws/install/salt_pkg/share/colcon-core/packages/salt_pkg)
+[7.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(salt_pkg)
+[7.325s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg' for CMake module files
+[7.329s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg' for CMake config files
+[7.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('salt_pkg', 'cmake_prefix_path')
+[7.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/hook/cmake_prefix_path.ps1'
+[7.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/hook/cmake_prefix_path.dsv'
+[7.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/hook/cmake_prefix_path.sh'
+[7.347s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg/bin'
+[7.347s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg/lib/pkgconfig/salt_pkg.pc'
+[7.349s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg/lib/python3.8/site-packages'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/seniorproject/nvi_ws/install/salt_pkg/bin'
+[7.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.ps1'
+[7.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.dsv'
+[7.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.sh'
+[7.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.bash'
+[7.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.zsh'
+[7.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seniorproject/nvi_ws/install/salt_pkg/share/colcon-core/packages/salt_pkg)
+[7.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.372s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.519s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.519s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.520s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.621s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.623s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seniorproject/nvi_ws/install/local_setup.ps1'
+[7.748s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seniorproject/nvi_ws/install/_local_setup_util_ps1.py'
+[7.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seniorproject/nvi_ws/install/setup.ps1'
+[7.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seniorproject/nvi_ws/install/local_setup.sh'
+[7.777s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seniorproject/nvi_ws/install/_local_setup_util_sh.py'
+[7.780s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seniorproject/nvi_ws/install/setup.sh'
+[7.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seniorproject/nvi_ws/install/local_setup.bash'
+[7.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seniorproject/nvi_ws/install/setup.bash'
+[7.815s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seniorproject/nvi_ws/install/local_setup.zsh'
+[7.820s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seniorproject/nvi_ws/install/setup.zsh'
