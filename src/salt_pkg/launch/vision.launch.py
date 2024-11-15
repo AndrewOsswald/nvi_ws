@@ -61,11 +61,15 @@ def generate_launch_description():
             arguments=['-d', '/home/seniorproject/nvi_ws/src/salt_pkg/config/config.rviz']
         ),
         Node(
-            package='gazebo_ros',
-            executable='spawn_entity.py',
-            arguments=['-entity', 'sam_bot', '-topic', 'robot_description'],
-            output='screen'
-        )
+            package='zed_wrapper',
+            executable='zed_wrapper',
+            parameters=[
+                {'camera_model': 'zedm'},
+            ],
+            namespace='zedm',
+            name='zed_node',
+        ),
+        
 
         
     

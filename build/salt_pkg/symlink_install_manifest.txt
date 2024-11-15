@@ -1,3 +1,4 @@
+/home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/APSR.launch.py
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/vision.launch copy.py
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/vision.launch.py
 /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/vision_sim.launch.py

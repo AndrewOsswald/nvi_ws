@@ -1,0 +1,36 @@
+[0.699s] Invoking command in '/home/seniorproject/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --build /home/seniorproject/nvi_ws/build/salt_pkg -- -j6 -l6
+[2.257s] Invoked command in '/home/seniorproject/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --build /home/seniorproject/nvi_ws/build/salt_pkg -- -j6 -l6
+[2.499s] Invoking command in '/home/seniorproject/nvi_ws/build/salt_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --install /home/seniorproject/nvi_ws/build/salt_pkg
+[2.552s] -- Install configuration: ""
+[2.557s] -- Execute custom install script
+[2.564s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/APSR.launch.py
+[2.569s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/vision.launch copy.py
+[2.573s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/vision.launch.py
+[2.576s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/launch/vision_sim.launch.py
+[2.581s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/config/config.rviz
+[2.585s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/config/config_sim.rvis.rviz
+[2.589s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/config/mapper_params_online_async.yaml
+[2.592s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/config/test.rviz
+[2.607s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/maps/turtle_test.pgm
+[2.618s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/maps/turtle_test.yaml
+[2.625s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/gazebo_control.xacro
+[2.628s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/gazebo_ref.xacro
+[2.631s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/materials.xacro
+[2.633s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/robot_model.xacro
+[2.636s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/urdf/zed_integration.xacro
+[2.638s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/ament_index/resource_index/package_run_dependencies/salt_pkg
+[2.641s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/ament_index/resource_index/parent_prefix_path/salt_pkg
+[2.643s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/environment/ament_prefix_path.sh
+[2.647s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/environment/ament_prefix_path.dsv
+[2.648s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/environment/path.sh
+[2.649s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/environment/path.dsv
+[2.649s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.bash
+[2.650s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.sh
+[2.651s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.zsh
+[2.651s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/local_setup.dsv
+[2.652s] -- Symlinking: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.dsv
+[2.821s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/ament_index/resource_index/packages/salt_pkg
+[2.824s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/cmake/salt_pkgConfig.cmake
+[2.826s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/cmake/salt_pkgConfig-version.cmake
+[2.831s] -- Up-to-date symlink: /home/seniorproject/nvi_ws/install/salt_pkg/share/salt_pkg/package.xml
+[2.844s] Invoked command in '/home/seniorproject/nvi_ws/build/salt_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seniorproject/dev_ws/install/my_package:/opt/ros/foxy /usr/local/bin/cmake --install /home/seniorproject/nvi_ws/build/salt_pkg
