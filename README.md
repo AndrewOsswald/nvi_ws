@@ -1,1 +1,1 @@
-Workspace for Nvidia Jetson Javier 
+Workspace for Nvidia Jetson Xavier NX
